@@ -1,0 +1,47 @@
+files:
+  - url: ""
+    time: 1677586608306.yml
+    name: config.yaml
+    selected: []
+  - time: 1678632798967.yml
+    name: sub
+    url: https://api.wcc.best/sub?target=clash&url=vmess%3A%2F%2FYXV0bzo4MmMxNDQ5OS0xY2UwLTQ2YTYtYTk0Ny01Mzg0MDEzYWNkZTZAdnVsdHIuaGllc2guY29tOjQ0Mw%3Fremarks%3D233v2.com_vultr.hiesh.com%26obfsParam%3Dvultr.hiesh.com%26path%3D%2F233blog%26obfs%3Dwebsocket%26tls%3D1&insert=false
+    selected:
+      - name: GLOBAL
+        now: DIRECT
+      - name: Proxies
+        now: 233v2.com_vultr.hiesh.com
+      - name: Apple
+        now: DIRECT
+      - name: MicroSoft
+        now: DIRECT
+      - name: Telegram
+        now: Proxies
+      - name: Netflix
+        now: Proxies
+      - name: Netease
+        now: DIRECT
+      - name: HKMTMedia
+        now: DIRECT
+      - name: HK
+        now: DIRECT
+      - name: SG
+        now: DIRECT
+      - name: TW
+        now: DIRECT
+      - name: JP
+        now: DIRECT
+      - name: US
+        now: DIRECT
+    interval: 24
+    subInfo: {}
+    homeWeb: ""
+    mode: rule
+  - time: 1678714175219.yml
+    name: 557c11f1-ae71-49da-95c6-1739aa7ac252
+    url: https://s.trojanflare.com/clashx/557c11f1-ae71-49da-95c6-1739aa7ac252
+    selected: []
+    interval: 0
+    subInfo: {}
+    homeWeb: ""
+index: 2

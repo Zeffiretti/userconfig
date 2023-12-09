@@ -1,0 +1,55 @@
+14:30:52 INF [API] listening addr=127.0.0.1:59420
+14:30:52 INF [Inbound] Mixed(http+socks) listening addr=[::]:7890
+14:30:53 INF [Config] initial compatible provider name=Auto
+14:30:53 INF [Config] initial compatible provider name=Proxy
+14:30:53 INF [Inbound] TUN listening iface=utun4 gateway=198.18.0.1
+14:30:53 INF [TCP] connected lAddr=198.18.0.1:59451 rAddr=17.111.103.20:443 mode=rule rule=IPCIDR(17.0.0.0/8) proxy=DIRECT
+14:30:53 INF [TCP] connected lAddr=127.0.0.1:59457 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:30:53 INF [TCP] connected lAddr=127.0.0.1:59456 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:30:53 INF [TCP] connected lAddr=127.0.0.1:59466 rAddr=ocsp.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:56 INF [TCP] connected lAddr=198.18.0.1:59479 rAddr=42.81.184.140:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:56 INF [TCP] connected lAddr=198.18.0.1:59475 rAddr=42.81.172.34:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:56 INF [TCP] connected lAddr=198.18.0.1:59480 rAddr=123.151.56.82:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:56 INF [TCP] connected lAddr=198.18.0.1:59476 rAddr=123.151.54.44:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:56 INF [TCP] connected lAddr=198.18.0.1:59477 rAddr=180.102.111.71:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:56 INF [TCP] connected lAddr=198.18.0.1:59478 rAddr=180.110.193.238:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:56 INF [TCP] connected lAddr=198.18.0.1:59481 rAddr=183.47.98.103:8080 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:56 INF [TCP] connected lAddr=198.18.0.1:59474 rAddr=14.116.241.14:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59496 rAddr=calendar.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59499 rAddr=ocsp.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59498 rAddr=ocsp.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59507 rAddr=imap.bit.edu.cn:993 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59502 rAddr=p216-imap.mail.icloud.com.cn:993 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59506 rAddr=imap.exmail.qq.com:993 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+14:30:58 INF [TCP] connected lAddr=198.18.0.1:59513 rAddr=183.2.143.108:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59503 rAddr=imap.gmail.com:993 mode=rule rule=DomainKeyword(gmail) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59504 rAddr=imap.mail.com:143 mode=rule rule=Match() proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59515 rAddr=ocsp.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59517 rAddr=imap.bit.edu.cn:993 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+14:30:58 INF [TCP] connected lAddr=127.0.0.1:59519 rAddr=calendar.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:30:59 INF [TCP] connected lAddr=127.0.0.1:59524 rAddr=calendar.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:00 INF [TCP] connected lAddr=127.0.0.1:59526 rAddr=calendar.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:00 INF [TCP] connected lAddr=127.0.0.1:59531 rAddr=raw.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:00 INF [TCP] connected lAddr=127.0.0.1:59533 rAddr=down.suyunti.vip:443 mode=rule rule=Match() proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:01 INF [TCP] connected lAddr=127.0.0.1:59536 rAddr=calendar.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:01 INF [TCP] connected lAddr=127.0.0.1:59534 rAddr=tly33.com:443 mode=rule rule=Match() proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:01 INF [TCP] connected lAddr=127.0.0.1:59540 rAddr=tly.bet:443 mode=rule rule=Match() proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:01 INF [TCP] connected lAddr=127.0.0.1:59539 rAddr=down.feijicloud.org:443 mode=rule rule=Match() proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:01 INF [TCP] connected lAddr=127.0.0.1:59543 rAddr=ocsp.r2m02.amazontrust.com:80 mode=rule rule=DomainKeyword(amazon) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:01 INF [TCP] connected lAddr=127.0.0.1:59545 rAddr=imap.mail.com:143 mode=rule rule=Match() proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:01 INF [TCP] connected lAddr=127.0.0.1:59547 rAddr=imap.gmail.com:993 mode=rule rule=DomainKeyword(gmail) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:01 INF [TCP] connected lAddr=127.0.0.1:59552 rAddr=calendar.google.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:12 INF [TCP] connected lAddr=198.18.0.1:59580 rAddr=117.89.176.67:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:31:16 INF [TCP] connected lAddr=127.0.0.1:59591 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+14:31:21 INF [TCP] connected lAddr=127.0.0.1:59614 rAddr=p220-contacts.icloud.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+14:31:21 INF [TCP] connected lAddr=127.0.0.1:59612 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:21 INF [TCP] connected lAddr=127.0.0.1:59611 rAddr=outlook.office365.com:443 mode=rule rule=DomainSuffix(office365.com) proxy=DIRECT
+14:31:22 INF [TCP] connected lAddr=127.0.0.1:59618 rAddr=ocsp.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+14:31:22 INF [TCP] connected lAddr=127.0.0.1:59620 rAddr=p220-contacts.icloud.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+14:31:22 INF [TCP] connected lAddr=127.0.0.1:59624 rAddr=p220-contacts.icloud.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+14:31:22 INF [TCP] connected lAddr=127.0.0.1:59622 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:22 INF [TCP] connected lAddr=127.0.0.1:59626 rAddr=outlook.office365.com:443 mode=rule rule=DomainSuffix(office365.com) proxy=DIRECT
+14:31:22 INF [TCP] connected lAddr=127.0.0.1:59630 rAddr=p220-contacts.icloud.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+14:31:22 INF [TCP] connected lAddr=127.0.0.1:59634 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]
+14:31:23 INF [TCP] connected lAddr=127.0.0.1:59636 rAddr=outlook.office365.com:443 mode=rule rule=DomainSuffix(office365.com) proxy=DIRECT
+14:31:23 INF [TCP] connected lAddr=127.0.0.1:59639 rAddr=www.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=Proxy[HongKong-PRO-IPLC-HK2-5-Rate:1.0]

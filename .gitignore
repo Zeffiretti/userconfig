@@ -1,0 +1,6 @@
+.DS_Store # macos dir config file
+
+configstore/
+kitty/
+mujoco_viewer/
+nvim/ # this will be managed in another repo
